@@ -11,36 +11,41 @@
     <!-- Header with nav bar -->
     <header>
         <h1>Jacob Jasperson</h1>
-        <nav>
-            <a href="#" class="hnav">About Me</a>
-            <a href="#" class="hnav">Projects</a>
-            <a href="#" class="hnav">Contact Me</a>
+        <nav class="container">
+            <a href="#about_me" >About Me</a>
+            <a href="#projects" >Projects</a>
+            <a href="#contact_me" >Contact Me</a>
         </nav>
     </header>
     <!-- hero image banner -->
-    <div class="hero">
-        <img src="../portfolio/assets/images/mountain banner 2.jpg" alt="Mountain Landscape">
-    </div>
+    <div class="hero"></div>
     <!-- about me section -->
  <main>
     <section class="box">
-    <h2>About Me</h2>
-        <p>I am a proud father of two wild little boys. I grew up in Washington state and moved to Arizona two years ago. My hobbies consist of hiking, swimming, playing video games, and hanging out with my family.</p>
+    <h2 id="about_me">About Me</h2>
+        <p>I am a proud father of two wild little boys. I grew up in Washington state and moved to Arizona two years ago. My hobbies consist of hiking, swimming, playing video games, hanging out with my family and my newly discovered obsession with coding!</p>
     </section>
     <!-- project section -->
    <section class="box">
-    <h2>Projects</h2>
+    <h2 id="projects">Projects</h2>
     <nav>
-        <a href="https://jaspersonja.github.io/prework-study-guide/" target="_blank">Pre-work Study Guide</a>
-        <a href="https://jaspersonja.github.io/refactoring-existing-code/" target="_blank">Refactoring Existing Code</a>
+       <div class="container">
+        <a id="study_guide" href="https://jaspersonja.github.io/prework-study-guide/" target="_blank">
+            Pre-work Study Guide
+        </a>
+        <a id="refactoring" href="https://jaspersonja.github.io/refactoring-existing-code/" target="_blank">
+            Refactoring Existing Code
+        </a>
+        </div>
     </nav>
+
     </section>
     <!-- contact me section -->
-    <section>
-        <h2>Contact Me</h2>
-        <nav>
-            <a href="mailto: jacob.jasperson@yahoo.com">jacob.jasperson@yahoo.com</a>
-            <p>360-556-0319</p>
+    <section class="box" >
+        <h2 id="contact_me">Contact Me</h2>
+        <nav class="container">
+            <a  href="mailto: jacob.jasperson@yahoo.com">jacob.jasperson@yahoo.com</a>
+            <a>360-556-0319</a>
             <a href="https://github.com/jaspersonja" target="_blank">Github</a>
         </nav>
     </section>
