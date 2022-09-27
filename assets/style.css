@@ -1,12 +1,14 @@
+/* margin-bottom to give better spacing throughout the webpage */
 *{
     margin-bottom: 20px;
     border: 0;
 }
+/* justify-content: space between worked perfectly to get the exact spacing I wanted */
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px;
+    padding: 5px; 
     background-color: rgb(170, 227, 241);
     font-family: serif;
     background-position: center;
@@ -16,11 +18,13 @@ body {
     max-width: 100%;
     height:auto;
 }
+/* linked hero to css for more control over image */
 .hero{
     background-image: url("../assets/images/mountain banner 2.jpg");
     margin-bottom: 20px;
     background-size:cover;
     height: 325px;
+    
 }
 main{
     display: block;
@@ -48,6 +52,8 @@ footer {
     font-size: 20px;
     text-align: center;
 }
+/* class=container was the biggest learning curve for me and forced me to play
+around with many features in CSS */
 .container a{
     display: inline-flex;
     flex-wrap: wrap;
